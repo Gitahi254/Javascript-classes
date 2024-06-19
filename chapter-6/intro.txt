@@ -1,0 +1,21 @@
+How to add content to a web page
+Add user events on a pageHow to create an annoying pop up
+The purpose of Javascript is to malke the page more interactice
+In this chapter we are going to learn
+1. Document object model
+2. Add, change or delete content
+3. Make cool pop up effects on the web page.
+.
+.
+.
+.
+1. DOM (document object model)
+it is created bt the browser
+The dom describes our html page as heirachichal
+We interact with the web page using the DOM to get to the node, where the html page is heirachichal
+We can reach on specific elements on the DOM
+
+.
+2. QUERY SELECTOR
+This is an action of reaching in and selecting elements of the web page in the DOM
+this is called QUERRY SELECTION
