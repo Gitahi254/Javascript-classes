@@ -1,0 +1,31 @@
+body{
+    background: #352f5b;
+}
+.container{
+    /* padding: auto; */
+    max-width: 400px;
+}
+form{
+    padding: 30px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #e81313;
+    border: none;
+    background: rgb(138, 177, 232);
+    max-width: 400px;
+    margin: 50px;
+    /* margin-bottom: 300px; */
+    /* padding: 10px; */
+}
+.todos li{
+    background: #624aed;
+    /* margin: 5px; */
+    /* padding-top: 20px; */
+}
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
