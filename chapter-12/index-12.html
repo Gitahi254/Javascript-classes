@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asynchronous Javascript</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f8ff; /* Light blue background */
+        }
+        .list-group-item {
+            position: relative;
+            padding-left: 2.5rem;
+            margin-bottom: 0.5rem;
+            background-color: #e6f7ff; /* Light cyan background for list items */
+            border: 1px solid #b3d9ff; /* Light blue border */
+        }
+        .list-group-item::before {
+            content: "\2192"; /* Right arrow Unicode */
+            position: absolute;
+            left: 1rem;
+            color: #007bff; /* Bootstrap primary blue */
+        }
+        .explanation {
+            margin-left: 3rem;
+            color: #007bff; /* Matching blue for text */
+        }
+        h1, h2 {
+            color: #0056b3; /* Darker blue for headings */
+        }
+        .lead, .list-group-item {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1><b>Asynchronous Javascript</b></h1>
+        </div>
+        <div class="mt-4">
+            <p class="lead">What is <b>Asynchronous JavaScript</b>?</p>
+            <p>This governs how we perform tasks and takes some time to complete.</p>
+            <p>[Start something now and finish later]<br>You see, Javascript is a <b>Synchronous</b> language, meaning it executes one line at a time.</p>
+        </div>
+
+        <div class="mt-5">
+            <h2>This chapter contains:</h2>
+            <ol class="list-group">
+                <li class="list-group-item">What is Asynchronous JavaScript</li>
+                <li class="list-group-item">Async Code in Action</li>
+                <li class="list-group-item">What are HTTP Requests?</li>
+                <p class="explanation">Using callback functions to run code after an async code is complete <br> Like using API endpoints.</p>
+                <li class="list-group-item">Making HTTP Requests (XHR)</li>
+                <li class="list-group-item">Response Status</li>
+                <li class="list-group-item">Callback Functions</li>
+                <li class="list-group-item">JSON Data</li>
+                <li class="list-group-item">Callback Hell</li>
+                <p class="explanation">This is the situation where someone nests a callback in a callback over and over again.
+                    <br> And to do that, we can use something called <b>promises</b>.
+                </p>
+                <li class="list-group-item">Promise Basics</li>
+                <li class="list-group-item">Chaining Promises</li>
+                <li class="list-group-item">The Fetch API</li>
+                <li class="list-group-item">Async & Await</li>
+                <p class="explanation">Whenever we call an ASYNC function, it always returns a promise.</p>
+                <li class="list-group-item">Throwing and Catching Errors</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="sandbox.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
