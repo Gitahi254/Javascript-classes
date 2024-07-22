@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 14 Javascript</title>
+</head>
+<body>
+    <div>
+        <h1>Local storage</h1>
+    </div>
+    <div>
+        <p>This is what the chapter contains</p>
+    <div>
+        <ol>
+            <li>What is local storage?</li>
+            <p>So in this course so far, we've created two different projects now and they both work with some kind
+
+                of data, the to do list work with to Dos, which is a form of data.
+                
+                And the weather app worked with location and weather data.
+                
+                Now in both of those projects, if we refresh the page at any point, it would reset the application
+                
+                to their original state and it would not keep hold of any data.
+                <br>
+                We might have input to the website.
+                
+                Now sometimes we want to do that.
+                
+                If a user crosses off the website and comes back later or just refreshes the page, it would be nice
+                
+                to keep or persist the data that a user input and then show it on the application again.
+                
+                Now how can we do that?
+                <br>
+                Well, to do that we could do one of two different things.
+                
+                <ol>We could either set up a database on a server somewhere to store all of our data in, then retrieve
+                
+                    that data whenever we start up the web application.</ol>
+                
+                Or 
+                <ol>we could use local storage to store data in, which would mean we're storing the data locally in
+                
+                    the user's browser and we can get that whenever our web app starts.</ol>
+                <br>
+                Now we're going to be looking at databases later on in the course.
+                
+                But to begin with, I want to talk about <b>local storage.</b>
+                <br>
+                So the local storage API is provided to us by the browser and it gives us a way to store data and retrieve
+                
+                data to and from the browser itself.
+                <br>
+                That means when a user enters info on our web app, we can then store that in the browser's local storage
+                
+                on the user's computer.
+                <br>
+                Now, if at some point they refresh the page or cross it off completely and come back later, then we
+                
+                can access that data that we previously stored from local storage in the browser and inject it back
+                
+                into our application.
+                <br>
+                So in this chapter I'll be showing you all the basics of local storage, and then we're going to be
+                
+                updating our weather app from the previous chapter to use local storage as well.</p>
+            <li>Storing and getting data.</li>
+            <li>Deleting storage data.</li>
+            <P>localStorage.removeItem('name');  <b>//=>THIS IS TO REMOVE A SINGLE ITEM</b>  <br>
+                localStorage.clear();   <b> //=>THIS IS TO REMOVE ALL THE ITEMS</b> </P>
+            <li>Stringifying and parsing data.</li>
+            <p>Stringify turns an array of objects into json.</p>
+            <li>Updating the weather app.</li>
+        </ol>
+    </div>
+       
+    </div>
+    
+
+
+
+    <script src="sandbox.js"></script>
+</body>
+</html>
